@@ -41,7 +41,7 @@ export default async function Profile({ params }) {
      
     // </div>
 
-   <div className="min-h-screen bg-gray-500 flex flex-col items-center py-16 px-4">
+   <div className="min-h-screen bg-[#BFCBC1] flex flex-col items-center py-16 px-4">
 
   <div className="flex flex-col items-center gap-4">
 
