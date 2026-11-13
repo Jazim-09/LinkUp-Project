@@ -31,11 +31,11 @@ const navbar = () => {
                
 
                 <ul className="hidden lg:flex gap-3 xl:gap-6 text-black text-sm xl:text-base">
-                    <Link href="/"><li>Solutions</li></Link>
+                    <Link href="/"><li>Home</li></Link>
                     <Link href="/"><li>Features</li></Link>
-                    <Link href="/"><li>Integrations</li></Link>
-                    <Link href="/"><li>Resources</li></Link>
-                    <Link href="/"><li>Pricing</li></Link>
+                    <Link href="/"><li>How It Works</li></Link>
+                    <Link href="/"><li>About</li></Link>
+                    <Link href="/generate"><li>Create Your LinkUP</li></Link>
                 </ul>
             </div>
 
@@ -57,11 +57,11 @@ const navbar = () => {
             {menuOpen && (
     <div className="absolute top-full left-0 mt-3 w-full bg-white rounded-2xl p-4 sm:p-5 shadow-lg md:hidden">
         <ul className="flex flex-col gap-4 text-black">
-            <li><Link href="/" onClick={() => setMenuOpen(false)}>Solutions</Link></li>
+            <li><Link href="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
             <li><Link href="/" onClick={() => setMenuOpen(false)}>Features</Link></li>
-            <li><Link href="/" onClick={() => setMenuOpen(false)}>Integrations</Link></li>
-            <li><Link href="/" onClick={() => setMenuOpen(false)}>Resources</Link></li>
-            <li><Link href="/" onClick={() => setMenuOpen(false)}>Pricing</Link></li>
+            <li><Link href="/" onClick={() => setMenuOpen(false)}>How It Works</Link></li>
+            <li><Link href="/" onClick={() => setMenuOpen(false)}>About</Link></li>
+            <li><Link href="/generate" onClick={() => setMenuOpen(false)}>Create Your LinkUP</Link></li>
         </ul>
     </div>
 )}
