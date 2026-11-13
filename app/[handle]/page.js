@@ -20,7 +20,7 @@ export default async function Profile({ params }) {
 
   return (
 
-   <div className="min-h-screen bg-[#BFCBC1] flex flex-col items-center py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
+   <div className="min-h-screen bg-[#304967] flex flex-col items-center py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
 
   <div className="flex flex-col items-center gap-3 sm:gap-4 w-full">
 
@@ -30,7 +30,7 @@ export default async function Profile({ params }) {
       alt="Profile"
     />
 
-    <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-800 text-center break-all">
+    <h1 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-100 text-center break-all">
       {items.handle}
     </h1>
 
@@ -43,7 +43,7 @@ export default async function Profile({ params }) {
         key={index}
         href={item.link}
         target="_blank"
-        className="border border-purple-200 bg-white text-gray-800 text-center py-3 sm:py-4 px-4 rounded-lg text-sm sm:text-base lg:text-lg hover:bg-purple-50 transition break-words"
+        className="border border-purple-200 bg-white text-black text-center py-3 sm:py-4 px-4 rounded-lg text-sm sm:text-base lg:text-lg hover:bg-purple-50 transition break-words"
       >
         {item.linktext}
       </Link>

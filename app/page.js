@@ -23,7 +23,7 @@ export default function Home() {
     <main>
       <section className="bg-[#020818] min-h-screen grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 px-5 sm:px-8 lg:px-0 py-16 lg:py-0">
         <div className="items-center justify-center flex flex-col ml-0 lg:ml-[5vw] text-center lg:text-left order-1">
-          <p className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-10 lg:mt-30 mr-0 lg:mr-50 font-bold text-white">A link in bio built <span className="text-[#60A5FA] font-extrabold">for you.</span></p>
+          <p className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mt-20 lg:mt-30 mr-0 lg:mr-50 font-bold text-white">A link in bio built <span className="text-[#60A5FA] font-extrabold">for you.</span></p>
           <p className="text-base sm:text-lg text-white pt-6 sm:pt-8 lg:pt-10">Everything you are, all in one link. Connect your social media, showcase your work, and share what matters with LinkUp. One link. Endless possibilities.</p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full mt-8 lg:mt-0">
             
